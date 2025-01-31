@@ -68,14 +68,14 @@ export default function Navegation(props) {
       >
         <Text style={{ color: "#ADADB1" }}>Seja Colaborador</Text>
       </TouchableOpacity>
-      <TouchableOpacity
+      {/* <TouchableOpacity
         style={styles.touchBtnPrincipal}
         onPress={() => {
           props.setModalQuemSomos(true);
         }}
       >
         <Text style={{ color: "#ADADB1" }}>Quem somos</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
       <TouchableOpacity
         style={styles.touchBtnPrincipal}
         onPress={() => {

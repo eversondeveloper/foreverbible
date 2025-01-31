@@ -67,7 +67,7 @@ export default function ModalQuemSomos(props) {
               }}
             >
               Eu, Everson Silva, sou mais do que um simples programador cristão;
-              sou um crente devoto que abraça fervorosamente a premissa do "Ide"
+              sou um crente praticante que abraça fervorosamente a premissa do "Ide"
               de Jesus. Para mim, pregar o evangelho é muito mais do que uma
               tarefa; é um ato de programação completo, envolvendo corpo, alma e
               espírito, para acolher a salvação que é oferecida. Convido você a

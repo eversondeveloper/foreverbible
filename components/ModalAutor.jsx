@@ -84,11 +84,17 @@ export default function ModalAutor(props) {
                 textAlign: "justify",
               }}
             >
-              Sou cristão evangélico, teólogo e estudante de Engenharia de Software, com 
-              paixão por unir tecnologia e fé. Possuo habilidades em programação, 
-              desenvolvimento de software e design gráfico, além de experiência como 
-              professor de informática. Meu portfólio reflete minha dedicação ao aprendizado 
-              contínuo e meu compromisso em usar a tecnologia para fazer a diferença no mundo.
+            Eu, Everson Silva, sou um programador cristão que vive o "Ide" de Jesus.{"\n\n"}
+
+            Pregar o evangelho é mais que uma tarefa, é um compromisso de corpo, alma e espírito.{"\n\n"}
+
+            Sou cristão evangélico, estudante da Bíblia e de Engenharia de Software, apaixonado por unir tecnologia e fé.{"\n\n"}
+
+            Com experiência em programação e ensino de informática, busco impactar vidas através do conhecimento e da inovação.{"\n\n"}
+
+            Que a paz do Senhor Jesus esteja com todos!
+
+
             </Text>
           </View>
         </TouchableOpacity>
