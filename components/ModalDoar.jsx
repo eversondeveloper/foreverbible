@@ -69,33 +69,41 @@ export default function ModalDoar(props) {
               Colaborador
             </Text>
             <Text
-              style={{
-                fontFamily: "Poppins_400Regular",
-                fontSize: 14,
-                color: "#a3a3a3",
-                textAlign: "justify",
-                userSelect: "all",
-              }}
-            >
-              Quer se tornar um mantenedor desta obra? Pix:{" "}
-              <Text>caixinhadepromessasbr@gmail.com</Text>
-              {"\n\n"}
-              <Text>
-                Ao clicar na tela, o Pix será copiado para a área de
-                transferência automaticamente.
-              </Text>
-              {"\n\n"}
-              <Text>
-                "Cada um dê conforme determinou em seu coração, não com pesar ou
-                por obrigação, pois Deus ama quem dá com alegria." (2 Coríntios
-                9:7)
-              </Text>
-              {"\n\n"}
-              <Text>
-                Após o envio do pix, mande o comprovante para este Whatsapp e seu nome ficará para sempre em nosso app como colaborador. Prazo de até um mês para registro.
-              </Text>
-            </Text>
-            <Text
+  style={{
+    fontFamily: "Poppins_400Regular",
+    fontSize: 14,
+    color: "#a3a3a3",
+    textAlign: "left",
+  }}
+>
+  Agradecemos por fazer parte desta jornada de fé e inspiração. Se você deseja contribuir para que esta obra continue crescendo e alcançando mais pessoas, pode se tornar um mantenedor com uma doação via Pix.{"\n\n"}
+  
+  <Text style={{ fontWeight: "bold", fontSize: 16 }}>Chave Pix:</Text>
+  {"\n"} 
+  <Text style={{ fontWeight: "bold", fontSize: 16 }}>caixinhadepromessasbr@gmail.com</Text>
+  {"\n\n"}
+
+  <Text>
+    Ao tocar nesta mensagem, a chave Pix será copiada automaticamente para a sua área de transferência, facilitando sua contribuição de forma rápida e prática.
+  </Text>
+  {"\n\n"}
+
+  <Text>
+    Cada doação é um gesto de amor e compromisso com a propagação da Palavra de Deus. Seu apoio nos ajuda a manter este projeto ativo, levando versículos inspiradores a mais pessoas todos os dias.
+  </Text>
+  {"\n\n"}
+
+  <Text style={{ fontStyle: "italic", fontSize: 15, color: "#b26123" }}>
+    "Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria." (2 Coríntios 9:7)
+  </Text>
+  {"\n\n"}
+
+  <Text>
+    Que sua generosidade seja retribuída abundantemente e que a graça do Senhor esteja sempre presente em sua vida. Agradecemos por caminhar conosco nesta missão!
+  </Text>
+</Text>
+
+            {/* <Text
               style={{
                 fontFamily: "Poppins_900Black",
                 fontSize: 30,
@@ -115,8 +123,8 @@ export default function ModalDoar(props) {
             >
               Heloiza Helena - Rosa Maria{"\n"}
               Mariana Alves - Oziel Silva{"\n"}
-            </Text>
-          </View>
+            </Text>*/}
+          </View> 
         </TouchableOpacity>
       </Modal>
     </View>

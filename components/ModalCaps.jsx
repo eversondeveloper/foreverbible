@@ -48,7 +48,7 @@ export default function ModalCaps(props) {
                 borderColor: "#2a2a2a",
                 borderWidth: 1,
                 borderRadius: 10,
-                backgroundColor: "#141416",
+                backgroundColor: "#1f1f1f",
                 shadowColor: "#000",
                 shadowOffset: {
                   width: 0,

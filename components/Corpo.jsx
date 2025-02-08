@@ -128,7 +128,7 @@ export default function Corpo(props) {
         </TouchableOpacity>
       )}
 
-      {props.localMenu === "right" && (
+      {/* {props.localMenu === "right" && (
         <TouchableOpacity
           style={{
             justifyContent: "center",
@@ -153,7 +153,7 @@ export default function Corpo(props) {
             style={{ width: 10, resizeMode: "contain" }}
           />
         </TouchableOpacity>
-      )}
+      )} */}
 
       {props.modalLiv == true ? (
         <ModalLivros

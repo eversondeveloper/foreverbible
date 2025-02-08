@@ -81,10 +81,10 @@ export default function ModalAutor(props) {
                 fontFamily: "Poppins_400Regular",
                 fontSize: 14,
                 color: "#a3a3a3",
-                textAlign: "justify",
+                textAlign: "left",
               }}
             >
-            Eu, Everson Silva, sou um programador cristão que vive o "Ide" de Jesus.{"\n\n"}
+            Eu, Everson Silva, sou um programador cristão que vive o "Ide" de Jesus.
 
             Pregar o evangelho é mais que uma tarefa, é um compromisso de corpo, alma e espírito.{"\n\n"}
 

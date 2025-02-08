@@ -2,13 +2,13 @@
   "expo": {
     "name": "foreverbible",
     "slug": "foreverbible",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "cover",
+      "resizeMode": "contain",
       "backgroundColor": "#1B1B1B"
     },
     "assetBundlePatterns": [
@@ -19,6 +19,7 @@
       "newArchEnabled": true
     },
     "android": {
+      "versionCode": 2, 
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

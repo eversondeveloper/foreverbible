@@ -66,7 +66,7 @@ export default function ModalVersao(props) {
                 fontFamily: "Poppins_400Regular",
                 fontSize: 14,
                 color: "#a3a3a3",
-                textAlign: "justify",
+                textAlign: "left",
               }}
             >
               Utilizamos a versão da Bíblia Livre
@@ -74,13 +74,13 @@ export default function ModalVersao(props) {
               todos os interessados. Estamos empolgados com o potencial de
               crescimento do projeto, e isso só será possível com a colaboração
               e apoio dos membros da comunidade. 
-              {"\n"}Planejamos
+              {"\n\n"}Planejamos
               expandir nossa coleção para incluir diversas outras versões
               bíblicas, enriquecendo assim a experiência espiritual de nossos
               usuários. Se você sente o desejo de contribuir com este projeto e
               fazer parte dessa jornada, clique no botão "Seja
               Colaborador".
-              {"\n"}Sua participação é fundamental para o sucesso e
+              {"\n\n"}Sua participação é fundamental para o sucesso e
               crescimento contínuo. Juntos,
               podemos levar a mensagem da Bíblia a um número ainda maior de
               pessoas e fazer uma diferença em suas vidas.

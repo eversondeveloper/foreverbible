@@ -63,7 +63,7 @@ export default function ModalQuemSomos(props) {
                 fontFamily: "Poppins_400Regular",
                 fontSize: 14,
                 color: "#a3a3a3",
-                textAlign: "justify",
+                textAlign: "left",
               }}
             >
               Eu, Everson Silva, sou mais do que um simples programador cristão;
