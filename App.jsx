@@ -6,6 +6,7 @@ import Corpo from "./components/Corpo";
 import Navegation from "./components/Navegation";
 import caixinhaVers from "./dados/versics.json";
 import * as SplashScreen from 'expo-splash-screen';
+import BtnsApp from "./components/BtnsApp";
 
 export default function App() {
   const [livro, setLivro] = useState(0);
@@ -243,6 +244,78 @@ export default function App() {
           setModalVersao={setModalVersao}
           corFontTopo={corFontTopo}
         />
+
+        <BtnsApp 
+          biblia={biblia}
+          livro={livro}
+          setLivro={setLivro}
+          capitulo={capitulo}
+          setCapitulo={setCapitulo}
+          quantiCaps={quantiCaps}
+          modalLiv={modalLiv}
+          setModalLiv={setModalLiv}
+          modalCap={modalCap}
+          setModalCap={setModalCap}
+          scrollRef={scrollRef}
+          meuScroll={meuScroll}
+          ativo={ativo}
+          setAtivo={setAtivo}
+          mudancaSwitch={mudancaSwitch}
+          corFonteVers={corFonteVers}
+          setCorFontVers={setCorFontVers}
+          corBackGroundGeral={corBackGroundGeral}
+          setCorBackGroundGeral={setCorBackGroundGeral}
+          corBackBtnGeral={corBackBtnGeral}
+          setBackBtnGeral={setBackBtnGeral}
+          corIconBtn={corIconBtn}
+          setCorIconBtn={setCorIconBtn}
+          corBtn1={corBtn1}
+          setCorBtn1={setCorBtn1}
+          corBtn2={corBtn2}
+          setCorBtn2={setCorBtn2}
+          corBtnsGrad1={corBtnsGrad1}
+          setCorBtnsGrad1={setCorBtnsGrad1}
+          corBtnsGrad2={corBtnsGrad2}
+          setCorBtnsGrad2={setCorBtnsGrad2}
+          modalDetal={modalDetal}
+          setModalDetal={setModalDetal}
+          tamanhoFont={tamanhoFont}
+          setTamanhoFont={setTamanhoFont}
+          quantMenuLiv={quantMenuLiv}
+          setQuantMenuLiv={setQuantMenuLiv}
+          corTouch={corTouch}
+          corTouch2={corTouch2}
+          drawer={drawer}
+          modalAutor={modalAutor}
+          setModalAutor={setModalAutor}
+          modalQuemSomos={modalQuemSomos}
+          setModalQuemSomos={setModalQuemSomos}
+          modalDoar={modalDoar}
+          setModalDoar={setModalDoar}
+          localMenu={localMenu}
+          setLocalMenu={setLocalMenu}
+          tema={tema}
+          setTema={setTema}
+          modalCaixinha={modalCaixinha}
+          setModalCaixinha={setModalCaixinha}
+          caixinhaVers={caixinhaVers}
+          versCaixinha={versCaixinha}
+          setVersCaixinha={setVersCaixinha}
+          corCartaoVers={corCartaoVers}
+          setCorCartaoVers={setCorCartaoVers}
+          livroCaix={livroCaix}
+          setLivroCaix={setLivroCaix}
+          numCaix1={numCaix1}
+          setNumCaix1={setNumCaix1}
+          numCaix2={numCaix2}
+          setNumCaix2={setNumCaix2}
+          numCaix3={numCaix3}
+          setNumCaix3={setNumCaix3}
+          modalVersao={modalVersao}
+          setModalVersao={setModalVersao}
+          corFontTopo={corFontTopo}
+        />
+        
         <StatusBar style={tema ? "light" : "dark"} />
       </SafeAreaView>
     </DrawerLayoutAndroid>

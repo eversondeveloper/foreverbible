@@ -22,15 +22,14 @@ export default function ModalDetalhes(props) {
     require('../assets/imglivros/2samuel.jpg'),
     require('../assets/imglivros/1reis.jpg'),
     require('../assets/imglivros/2reis.jpg'),
-    // require('../assets/imglivros/1cronicas.jpg'),
-    // require('../assets/imglivros/2cronicas.jpg'),
-
-    // require('../assets/imglivros/esdras.jpg'),
-    // require('../assets/imglivros/neemias.jpg'),
-    // require('../assets/imglivros/ester.jpg'),
-    // require('../assets/imglivros/jo.jpg'),
-    // require('../assets/imglivros/salmos.jpg'),
-    // require('../assets/imglivros/proverbios.jpg'),
+    require('../assets/imglivros/1cronicas.jpg'),
+    require('../assets/imglivros/2cronicas.jpg'),
+    require('../assets/imglivros/esdras.jpg'),
+    require('../assets/imglivros/neemias.jpg'),
+    require('../assets/imglivros/ester.jpg'),
+    require('../assets/imglivros/jo.jpg'),
+    require('../assets/imglivros/salmos.jpg'),
+    require('../assets/imglivros/proverbios.jpg'),
     // require('../assets/imglivros/eclesiastes.jpg'),
     // require('../assets/imglivros/cantares.jpg'),
     // require('../assets/imglivros/isaias.jpg'),
@@ -50,6 +49,7 @@ export default function ModalDetalhes(props) {
     // require('../assets/imglivros/ageu.jpg'),
     // require('../assets/imglivros/zacarias.jpg'),
     // require('../assets/imglivros/malaquias.jpg'),
+
     // require('../assets/imglivros/mateus.jpg'),
     // require('../assets/imglivros/marcos.jpg'),
     // require('../assets/imglivros/lucas.jpg'),
@@ -97,88 +97,18 @@ export default function ModalDetalhes(props) {
       }}
     >
       <ScrollView>
-        <View style={{ width: "90%", marginLeft: "5%", marginRight: "5%" }}>
+        <View style={{ width: "100%"}}>
           {imLink[Number(props.livro)] != undefined ? (
-            <View style={{ width: "100vw" }}>
+            <View style={{ width: "100vw", position: "relative", borderBottomEndRadius: 50, borderBottomStartRadius: 50, overflow: "hidden", resizeMode: "contain", marginBottom: 40 }}>
               <Image
                 source={imLink[Number(props.livro)]}
-                style={{ width: "100%", height: 400, resizeMode: "contain" }}
+                style={{ width: "100%", height: 400, resizeMode: "cover" }}
               />
             </View>
           ) : (
             ""
           )}
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              fontWeight: "bold",
-            }}
-          >
-            Nome
-          </Text>
-          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
-            {bib.nome}
-          </Text>
-
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              fontWeight: "bold",
-            }}
-          >
-            Abreviação
-          </Text>
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              textTransform: "capitalize",
-            }}
-          >
-            {bib.abrev}
-          </Text>
-          <Text></Text>
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              fontWeight: "bold",
-            }}
-          >
-            Autor
-          </Text>
-          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
-            {bib.autor}
-          </Text>
-          <Text></Text>
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              fontWeight: "bold",
-            }}
-          >
-            Período
-          </Text>
-          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
-            {bib.periodo}
-          </Text>
-          <Text></Text>
-          <Text
-            style={{
-              fontSize: 20,
-              fontFamily: "Poppins_400Regular",
-              fontWeight: "bold",
-            }}
-          >
-            Grupo
-          </Text>
-          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
-            {bib.grupo}
-          </Text>
-          <Text></Text>
+          <View style={{width: "90%", marginLeft: "auto", marginRight: "auto"}}>
           <Text
             style={{
               fontSize: 20,
@@ -205,7 +135,10 @@ export default function ModalDetalhes(props) {
           <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
             {bib.sinopse}
           </Text>
-          <Text></Text>
+          
+
+          </View>
+          
         </View>
       </ScrollView>
     </Modal>

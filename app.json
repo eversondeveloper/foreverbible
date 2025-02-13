@@ -2,14 +2,27 @@
   "expo": {
     "name": "foreverbible",
     "slug": "foreverbible",
-    "version": "1.0.1",
+    "version": "2.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1B1B1B"
+      "backgroundColor": "#1B1B1B",
+      "plugins": [
+      [
+        "expo-font",
+        {
+          "custom": {
+            "FontAwesome": "node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "fontAwesome": "FontAwesome"
+    }
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,7 +32,7 @@
       "newArchEnabled": true
     },
     "android": {
-      "versionCode": 2, 
+      "versionCode": 4, 
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

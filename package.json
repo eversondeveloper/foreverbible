@@ -1,6 +1,6 @@
 {
   "name": "foreverbible",
-  "version": "1.0.1",
+  "version": "2.0.2",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -17,12 +17,14 @@
     "expo-clipboard": "^7.0.1",
     "expo-font": "^13.0.3",
     "expo-linear-gradient": "^14.0.2",
+    "expo-splash-screen": "~0.29.21",
     "expo-status-bar": "^2.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-native": "^0.76.6",
+    "react-native-vector-icons": "^10.2.0",
     "react-native-web": "0.19.13",
-    "expo-splash-screen": "~0.29.21"
+    "react-native-svg": "15.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

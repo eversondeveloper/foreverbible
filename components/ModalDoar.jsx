@@ -73,7 +73,7 @@ export default function ModalDoar(props) {
     fontFamily: "Poppins_400Regular",
     fontSize: 14,
     color: "#a3a3a3",
-    textAlign: "left",
+    textAlign: "justify",
   }}
 >
   Agradecemos por fazer parte desta jornada de fé e inspiração. Se você deseja contribuir para que esta obra continue crescendo e alcançando mais pessoas, pode se tornar um mantenedor com uma doação via Pix.{"\n\n"}

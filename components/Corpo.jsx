@@ -16,6 +16,7 @@ import ModalDoar from "./ModalDoar";
 import ModalCaixinha from "./ModalCaixinha";
 import Topo from "./Topo";
 import Footer from "./Footer";
+import BtnsApp from "./BtnsApp";
 
 export default function Corpo(props) {
   const text = props.biblia[props.livro].capitulos[props.capitulo];
@@ -35,11 +36,11 @@ export default function Corpo(props) {
     <View style={{ width: "100%", paddingTop: 25 }}>
       <FlatList
         ref={props.scrollRef}
-        style={{ width: "100%" }}
+        style={{ width: "100%", height: "90%" }}
         data={text}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item, index }) => (
-          <View key={index.toString()} style={{ marginBottom: 10 }}>
+          <View key={index.toString()} style={{ marginBottom: 10, display: '' }}>
             {index == 0 ? (
               <Topo
                 biblia={props.biblia}
@@ -127,33 +128,6 @@ export default function Corpo(props) {
           />
         </TouchableOpacity>
       )}
-
-      {/* {props.localMenu === "right" && (
-        <TouchableOpacity
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: 5,
-            position: "absolute",
-            left: 0,
-            bottom: 100,
-            backgroundColor: "#cecece",
-            borderRadius: 50,
-            padding: 5,
-          }}
-          onPress={() => {
-            props.setLocalMenu("left");
-            setTimeout(() => {
-              props.drawer.current.openDrawer();
-            }, 100);
-          }}
-        >
-          <Image
-            source={require("../assets/menue.png")}
-            style={{ width: 10, resizeMode: "contain" }}
-          />
-        </TouchableOpacity>
-      )} */}
 
       {props.modalLiv == true ? (
         <ModalLivros

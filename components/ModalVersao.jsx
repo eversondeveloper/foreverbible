@@ -66,7 +66,7 @@ export default function ModalVersao(props) {
                 fontFamily: "Poppins_400Regular",
                 fontSize: 14,
                 color: "#a3a3a3",
-                textAlign: "left",
+                textAlign: "justify",
               }}
             >
               Utilizamos a versão da Bíblia Livre

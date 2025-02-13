@@ -81,7 +81,7 @@ export default function ModalAutor(props) {
                 fontFamily: "Poppins_400Regular",
                 fontSize: 14,
                 color: "#a3a3a3",
-                textAlign: "left",
+                textAlign: "justify",
               }}
             >
             Eu, Everson Silva, sou um programador cristão que vive o "Ide" de Jesus.

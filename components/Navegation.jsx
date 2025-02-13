@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Image, StyleSheet } from "react-native";
+import { View, Text, TouchableOpacity, Image, StyleSheet, Linking } from "react-native";
 import {
   useFonts,
   Poppins_100Thin,
@@ -7,7 +7,7 @@ import {
   Poppins_900Black,
 } from "@expo-google-fonts/poppins";
 import { useEffect, useState } from "react";
-
+import { instagram, site } from "./icons";
 export default function Navegation(props) {
   const [fontLoaded] = useFonts({
     Poppins_100Thin,
@@ -41,7 +41,7 @@ export default function Navegation(props) {
           height: 250
         }}
       >
-        {/* <Image
+        <Image
           source={require("../assets/log1.1.png")}
           style={{
             width: '70%',
@@ -49,9 +49,9 @@ export default function Navegation(props) {
             resizeMode: "contain",
             
           }}
-        /> */}
+        />
         <Image
-          source={require("../assets/log2.png")}
+          source={require("../assets/log1.png")}
           style={{
             width: 200,
             marginTop: 20,
@@ -191,31 +191,24 @@ export default function Navegation(props) {
           <TouchableOpacity
             style={styles.touchBtnControles}
             onPress={() => {
-              props.setCapitulo((prev) => (prev > 0 ? prev - 1 : prev));
-              props.meuScroll(0);
+              Linking.openURL("https://www.instagram.com/foreverbible.br/")
             }}
+            
           >
-            <Image
+            {instagram("#cacaca", "35%")}
+            {/* <Image
               source={require("../assets/setaesquerda3.png")}
               style={{ width: 20, resizeMode: "contain" }}
-            />
+            /> */}
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.touchBtnControles}
             onPress={() => {
-              props.setCapitulo((prev) =>
-                prev < props.quantiCaps - 1 ? prev + 1 : prev
-              );
-              props.meuScroll(0);
+              Linking.openURL("https://eversondeveloper.github.io/curriculum/")
             }}
           >
-            <Image
-              source={require("../assets/setadireita3.png")}
-              style={{
-                width: 20,
-                resizeMode: "contain",
-              }}
-            />
+            
+            {site("#cacaca", "35%")}
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.touchBtnControles}
