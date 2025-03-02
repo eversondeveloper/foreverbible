@@ -30,25 +30,25 @@ export default function ModalDetalhes(props) {
     require('../assets/imglivros/jo.jpg'),
     require('../assets/imglivros/salmos.jpg'),
     require('../assets/imglivros/proverbios.jpg'),
-    // require('../assets/imglivros/eclesiastes.jpg'),
-    // require('../assets/imglivros/cantares.jpg'),
-    // require('../assets/imglivros/isaias.jpg'),
-    // require('../assets/imglivros/jeremias.jpg'),
-    // require('../assets/imglivros/lamentacoes.jpg'),
-    // require('../assets/imglivros/ezequiel.jpg'),
-    // require('../assets/imglivros/daniel.jpg'),
-    // require('../assets/imglivros/oseias.jpg'),
-    // require('../assets/imglivros/joel.jpg'),
-    // require('../assets/imglivros/amos.jpg'),
-    // require('../assets/imglivros/obadias.jpg'),
-    // require('../assets/imglivros/jonas.jpg'),
-    // require('../assets/imglivros/miqueias.jpg'),
-    // require('../assets/imglivros/naum.jpg'),
-    // require('../assets/imglivros/habacuque.jpg'),
-    // require('../assets/imglivros/sofonias.jpg'),
-    // require('../assets/imglivros/ageu.jpg'),
-    // require('../assets/imglivros/zacarias.jpg'),
-    // require('../assets/imglivros/malaquias.jpg'),
+    require('../assets/imglivros/eclesiastes.jpg'),
+    require('../assets/imglivros/cantares.jpg'),
+    require('../assets/imglivros/isaias.jpg'),
+    require('../assets/imglivros/jeremias.jpg'),
+    require('../assets/imglivros/lamentacoes.jpg'),
+    require('../assets/imglivros/ezequiel.jpg'),
+    require('../assets/imglivros/daniel.jpg'),
+    require('../assets/imglivros/oseias.jpg'),
+    require('../assets/imglivros/joel.jpg'),
+    require('../assets/imglivros/amos.jpg'),
+    require('../assets/imglivros/obadias.jpg'),
+    require('../assets/imglivros/jonas.jpg'),
+    require('../assets/imglivros/miqueias.jpg'),
+    require('../assets/imglivros/naum.jpg'),
+    require('../assets/imglivros/habacuque.jpg'),
+    require('../assets/imglivros/sofonias.jpg'),
+    require('../assets/imglivros/ageu.jpg'),
+    require('../assets/imglivros/zacarias.jpg'),
+    require('../assets/imglivros/malaquias.jpg'),
 
     // require('../assets/imglivros/mateus.jpg'),
     // require('../assets/imglivros/marcos.jpg'),
@@ -116,12 +116,76 @@ export default function ModalDetalhes(props) {
               fontWeight: "bold",
             }}
           >
+            Nome
+          </Text>
+          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
+            {bib.nome}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: 20,
+              fontFamily: "Poppins_400Regular",
+              fontWeight: "bold",
+            }}
+          >
+            Autor
+          </Text>
+          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
+            {bib.autor}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: 20,
+              fontFamily: "Poppins_400Regular",
+              fontWeight: "bold",
+            }}
+          >
+            Abreviatura
+          </Text>
+          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
+            {bib.abrev}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: 20,
+              fontFamily: "Poppins_400Regular",
+              fontWeight: "bold",
+            }}
+          >
             Posição
           </Text>
           <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
             {bib.id}ª
           </Text>
-          <Text></Text>
+
+          <Text
+            style={{
+              fontSize: 20,
+              fontFamily: "Poppins_400Regular",
+              fontWeight: "bold",
+            }}
+          >
+            Período
+          </Text>
+          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
+            {bib.periodo}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: 20,
+              fontFamily: "Poppins_400Regular",
+              fontWeight: "bold",
+            }}
+          >
+            Grupo
+          </Text>
+          <Text style={{ fontSize: 20, fontFamily: "Poppins_400Regular" }}>
+            {bib.grupo}
+          </Text>          
 
           <Text
             style={{
